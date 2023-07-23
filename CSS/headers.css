@@ -146,8 +146,8 @@
   justify-content: space-between;
 }
 .text-secondary{
-  background-image: url('/IMG/fond.jpg');
   background-size: cover;
+  height: 550px;
 }
 
 .card{
@@ -156,7 +156,4 @@
 .container a {
   text-decoration: none;
   text-transform: capitalize;
-}
-.feature-icon{
-  background-color: #01a54e;
 }
