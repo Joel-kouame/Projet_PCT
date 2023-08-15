@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" data-bs-theme="all">
+  <head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>Signin</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq" crossorigin="anonymous">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet"> 
+    <link href="CSS/formulaire.css" rel="stylesheet">
+</head>
+<body>
+      <form action="traitement_inscription.php" method="POST">
+        <h2>Formulaire d'Inscription</h2>
+        <div class="form-group">
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="prenom">Prénom :</label>
+          <input type="text" id="prenom" name="prenom" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Adresse e-mail :</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="telephone">Numéro de téléphone :</label>
+          <input type="tel" id="telephone" name="telephone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="date_naissance">Date de naissance :</label>
+          <input type="date" id="date_naissance" name="date_naissance" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sexe">Sexe :</label>
+          <select id="sexe" name="sexe" required>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+            <option value="autre">Autre</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="nationalite">Nationalité :</label>
+          <input type="text" id="nationalite" name="nationalite" required>
+        </div>
+
+        <div class="form-group">
+          <label for="adresse">Lieu d'habitation :</label>
+          <input type="text" id="habitation" name="habitation" required>
+        </div>
+
+        <div class="form-group">
+          <label for="Identifiant">Identifiant :</label>
+          <input type="text" id="Identifiant" name="Identifiant" placeholder="Numero: 0102030405 OU Adresse email: exemple@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mot_de_passe">Mot de passe :</label>
+          <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+        </div>
+
+        <div class="form-group">
+          <label for="confirmation_mot_de_passe">Confirmez le mot de passe :</label>
+          <input type="password" id="confirmation_mot_de_passe" name="confirmation_mot_de_passe" required>
+        </div>
+        
+        <div class="submit-button">
+          <input type="submit" value="Soumettre">
+        </div>
+
+      </form>
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-2 text-body-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Ajout</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Naissance.html">Naissance</a></li>
+                <li><a class="dropdown-item" href="deces.html">Déces</a></li>
+                <li><a class="dropdown-item" href="amenagement.html">Amenagement</a></li>
+                <li><a class="dropdown-item" href="demenagement.html">Demenagement</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="tableau de bords.html" class="nav-link px-2 text-body-secondary">Admin</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2023 UVCI (Tout droit reservés), GROUPE1-BD-DAS - RAJ22-23</p>
+        </footer>
+      </div>
+      <script src="JS/bootstrap.bundle.min.js"></script>
+
+  <footer>
+    <!-- Pied de page -->
+    <!-- ... Ajoutez des informations supplémentaires ... -->
+  </footer>
+</body>
+</html>
