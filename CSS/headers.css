@@ -130,7 +130,18 @@
 .feature-icon-small {
   width: 3rem;
   height: 3rem;
+}body {
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
+main {
+  max-width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
 /* MON CSS */
 .navbar-collapse{
   display: flex;
@@ -140,6 +151,23 @@
 .nav img {
   height: 90px;
 }
+
+nav div ul li .nav-link {
+  display: block;
+  color: #fff;
+  font-weight: bold;
+}
+.Accueil{
+  background-color: #259045;
+}
+.nav-link, .dropdown-item {
+  color: #fff;
+}
+nav ul li .nav-link:hover{
+  color: white;
+  /* border-bottom: 2px solid #fff; */
+  background: #259045;
+}
 .row{
   width: auto;
   display: flex;
@@ -147,13 +175,21 @@
 }
 .text-secondary{
   background-size: cover;
+  background-position: center;
   height: 550px;
 }
 
-.card{
+.card, .header2, nav,.dropdown-menu{
   background-color: #90258e;
+}
+.rounded-4:hover{
+  background-color: #259045;
 }
 .container a {
   text-decoration: none;
   text-transform: capitalize;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
 }

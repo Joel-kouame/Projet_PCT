@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>Demendeur d'emploi</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/jumbotron/">
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">   
+     <link rel="stylesheet" href="CSS/checkout.css">
+  </head>
+  <body style="background-image: url('IMG/008BGR.jpg');">
+    <main>
+      <!-- header -->
+      <header>
+        <div class="py-2 bg-body-tertiary border-bottom">
+          <div class="container d-flex flex-wrap align-items-center">
+            <div class="nav">
+              <a href="index.html" class="nav-link link-body-emphasis px-2"><img src="IMG/logo2.png" alt="Logo UVCI" srcset=""></a>
+            </div>
+            <div>
+              <h4>VILLAGE D'ALLAKRO</h4>
+            </div>
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link link-body-emphasis px-2">Admin</a></li>
+              <li class="nav-item"><a href="sign-in.html" class="nav-link link-body-emphasis px-2">connexion</a></li>
+              <li class="nav-item"><a href="inscription.html" class="nav-link link-body-emphasis px-2">s'inscrire</a></li>
+            </ul>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg" aria-label="Tenth navbar example">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+              <ul class="navbar-nav">
+                <li>
+                  <a class="nav-link Accueil" aria-current="page" href="index.html">ACCUEIL</a>
+                </li>
+                <li>
+                  <a class="nav-link" aria-current="page" href="sign-in.html">HABITANTS</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="pharmacie.html">PHARMACIE</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="dashboard.html">CENTRE DE SANTE</a>
+                </li>
+                <li>
+                  <a class="nav-link" aria-current="page" href="maladie.html">MALADIE</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">AJOUT</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Naissance.html">NAISSANCE</a></li>
+                    <li><a class="dropdown-item" href="deces.html">DECES</a></li>
+                    <li><a class="dropdown-item" href="amenagement.html">AMENAGEMENT</a></li>
+                    <li><a class="dropdown-item" href="demenagement.html">DEMENAGEMENT</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <marquee behavior="" direction="" style="margin-bottom: 10px; margin-top: 10px;">C’est NOEL à ALLAKRO ! Le groupe Matthieu Évra en collaboration avec la classe ISRAËL DE L’EMUCI  pour sa 1ere éditions organise au sein dudit temple un arbre de Noël en faveur des enfants démunis des quartiers précaires. D’où le sens du partage et donner le sourire aux enfants
+        </marquee>
+      </header>
+      <div class="container py-4">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+          <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Chercheur d'emploi</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <main>
+          <div class="py-5 text-center">
+            <div class="justify-content-center"><span class="tiret"></span></div>
+            <h2>Formulaire de saisi de compétence et<br> proposition de service</h2>
+            <p class="lead">Le module recherche d’emploi doit permettre à tout habitant de Allakro désireux de publier une offre de service de le faire à travers l’application du village. Chaque publication de proposition de service sera facturée à 100F la semaine (juste un exemple). Cette somme sera reversée à la trésorerie du village de la chefferie et la validation d’une proposition d’offre de service sera validée après paiement de cette somme par le gestionnaire de l’application. Une fois l’offre payée et validée, elle apparaitra en bulle d\’information sur un coin d’écran de tous ceux qui consultent la page</p>
+          </div>
+      
+          <div class="row g-5 justify-content-center">
+            <div class="col-md-7 col-lg-8">
+              <h4 class="mb-3">Information personnelles</h4>
+              <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" name="nom" required>
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Prénoms</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" name="prenoms" required>
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="exemple@gmail.com" name="email">
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+      
+                  <div class="col-12">
+                    <label for="habitation" class="form-label">Lieu d'habitation</label>
+                    <input type="text" class="form-control" id="habitation" placeholder="exemple, Il habite à côté de chez COULIBALY. Ou bien : Sa maison situe entre celle de M. KONA et M. KONE, en bas du quartier" name="adresse" required>
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="tel" class="form-label">Télephone</label>
+                    <input type="tel" class="form-control" id="tel" placeholder="+2250707070707" name="telephone" required>
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+                  
+                  <div class="col-12">
+                    <label for="photo" class="form-label">Photo de la personne en activité</label>
+                    <input type="file" class="form-control" id="photo" placeholder="" name="photo" required>
+                    <div class="invalid-feedback">
+                      Veillez remplir cet champ SVP.
+                    </div>
+                  </div>
+
+                <hr class="my-4">
+
+                <h4 class="mb-3">Compétences</h4>
+
+                <div class="form-check">
+                  <label class="form-label">Compétences linguistiques:</label>
+                  <div class="form-check">
+                    <div>
+                      <label for="langue_anglais">Anglais</label>
+                      <input type="checkbox" class="form-check-input" id="anglais" value="anglais" name="anglais">
+                    </div>
+                    <div>
+                      <label for="langue_francais">Français</label>
+                      <input type="checkbox" class="form-check-input" id="Français" value="Français" name="Français">
+                    </div>
+                    <div>
+                      <label for="langue_espagnol">Espagnol</label>
+                      <input type="checkbox" class="form-check-input" id="Espagnol" value="Espagnol" name="Espagnol">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="competences" class="form-label">Compétences interpersonnelles</label>
+                  <textarea class="form-control" id="competence" placeholder="Saisisser vos compétences ou vos qualifications" name="competences" ></textarea>
+                  <div class="invalid-feedback">
+                    Veillez remplir cet champ SVP.
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="competences" class="form-label">Description du services</label>
+                  <textarea class="form-control" id="competence" placeholder="Un petit message que la personne souhaite faire passer auprès du publique" name="competences" required></textarea>
+                  <div class="invalid-feedback">
+                    Veillez remplir cet champ SVP.
+                  </div>
+                </div>
+              </div>
+      
+                <hr class="my-4">
+      
+                <h4 class="mb-3">Payment</h4>
+      
+                <div class="my-3">
+                  <div class="form-check">
+                    <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                    <label class="form-check-label" for="credit">MTN Money</label>
+                  </div>
+                  <div class="form-check">
+                    <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="debit">Orange Money</label>
+                  </div>
+                  <div class="form-check">
+                    <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                    <label class="form-check-label" for="paypal">Moov </label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="payement" class="form-label">Numéro du paiement</label>
+                  <input type="tel" class="form-control" id="payement" placeholder="+2250707070707" name="payement" required>
+                  <div class="invalid-feedback">
+                    Veillez remplir cet champ svp.
+                  </div>
+                </div>
+
+                <hr class="my-4">
+      
+                <button class="w-100 btn btn-success btn-lg" type="submit">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </main>
+      </div>
+      <!-- footer -->
+      <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-2 text-body-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Menu</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="dashboard.html">Centre de santé</a></li>
+                <li><a class="dropdown-item" href="maladie.html">Maladies</a></li>
+                <li><a class="dropdown-item" href="pharmacie.html">Pharmacies</a></li>
+                <li><a class="dropdown-item" href="Chercheur_rmplois.html">Chercheur d'emploi</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle px-2 text-body-secondary" href="#" data-bs-toggle="dropdown" aria-expanded="false">Ajout</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="Naissance.html">NAISSANCE</a></li>
+                <li><a class="dropdown-item" href="deces.html">DECES</a></li>
+                <li><a class="dropdown-item" href="amenagement.html">AMENAGEMENT</a></li>
+                <li><a class="dropdown-item" href="demenagement.html">DEMENAGEMENT</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="tableau de bords.html" class="nav-link px-2 text-body-secondary">Admin</a></li>
+            <li class="nav-item"><a href="sign-in.html" class="nav-link px-2 text-body-secondary">Connexion</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">&copy; 2023 UVCI (Tout droit reservés), GROUPE1-BD-DAS - RAJ22-23</p>
+        </footer>
+      </div>
+    </main>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

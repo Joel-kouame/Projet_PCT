@@ -118,3 +118,7 @@
 .bd-mode-toggle {
   z-index: 1500;
 }
+/* Mon CSS */
+.col-12{
+  padding-top: 20px;
+}
