@@ -1,4 +1,4 @@
-body {
+body, .maladie {
   display: flex;
   justify-content: center;
   background-position: center;
@@ -46,8 +46,7 @@ nav ul li .nav-link:hover{
   background-position: center;
   height: 550px;
 }
-
-.card, .header2, nav,.dropdown-menu{
+.header2, nav,.dropdown-menu{
   background-color: #90258e;
 }
 .rounded-4:hover{

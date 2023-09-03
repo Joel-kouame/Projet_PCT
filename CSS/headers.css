@@ -182,9 +182,6 @@ nav ul li .nav-link:hover{
 .card, .header2, nav,.dropdown-menu{
   background-color: #90258e;
 }
-.rounded-4:hover{
-  background-color: #259045;
-}
 .container a {
   text-decoration: none;
   text-transform: capitalize;
@@ -192,4 +189,10 @@ nav ul li .nav-link:hover{
 .d-flex{
   display: flex;
   justify-content: space-between;
+}
+.card-body{
+  background: #259045;
+}
+.card-body:hover{
+  background: #90258e;
 }

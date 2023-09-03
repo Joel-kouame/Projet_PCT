@@ -64,7 +64,11 @@ nav ul li .nav-link:hover{
   display: flex;
   justify-content: space-between;
 }
-
+.projets{
+  width: 500px;
+  height: 370px;
+  background-color: red;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
