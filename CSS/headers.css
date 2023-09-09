@@ -23,6 +23,9 @@
 }
 
 @media (min-width: 768px) {
+  main {
+    max-width: 100%;
+  }
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -38,6 +41,9 @@
 }
 
 @media (min-width: 768px) {
+  main {
+    max-width: 100%;
+  }
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
@@ -102,6 +108,9 @@
 }
 /* SLIDE CSS */
 @media (min-width: 992px) {
+  main {
+    max-width: 100%;
+  }
   .rounded-lg-3 { border-radius: .3rem; }
 }
 /* BOITE CSS */
@@ -137,7 +146,6 @@
   background-size: cover;
 }
 main {
-  max-width: 80%;
   align-items: center;
   justify-content: center;
 }
@@ -165,7 +173,6 @@ nav div ul li .nav-link {
 }
 nav ul li .nav-link:hover{
   color: white;
-  /* border-bottom: 2px solid #fff; */
   background: #259045;
 }
 .row{
@@ -179,7 +186,7 @@ nav ul li .nav-link:hover{
   height: 550px;
 }
 
-.card, .header2, nav,.dropdown-menu{
+ .header2, nav,.dropdown-menu{
   background-color: #90258e;
 }
 .container a {
@@ -190,9 +197,9 @@ nav ul li .nav-link:hover{
   display: flex;
   justify-content: space-between;
 }
-.card-body{
+.hovers{
   background: #259045;
 }
-.card-body:hover{
+.hovers:hover{
   background: #90258e;
 }
